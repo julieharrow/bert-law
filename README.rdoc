@@ -3,4 +3,6 @@ Bertoldi and Co. prototype website
 Things Left to DO:
 
 -GoogleMaps API
+
+
 -ActionMailer from 'Contact Us' form
