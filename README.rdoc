@@ -2,7 +2,13 @@ Bertoldi and Co. prototype website
 
 Things Left to DO:
 
--GoogleMaps API
+- Add GoogleMaps API to bottom of contact page
 
 
--ActionMailer from 'Contact Us' form
+-ActionMailer from 'Contact Us' form (make it actually send out an Email)
+
+- Add linkability to entire card areas of each bio card on index page
+
+- Add body fonts?
+
+- change/add card or body colors?
