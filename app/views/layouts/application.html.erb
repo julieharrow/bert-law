@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Bagsite</title>
+  <%= stylesheet_link_tag "https://fonts.googleapis.com/icon?family=Material+Icons" %>
+  <%= stylesheet_link_tag "https://fonts.googleapis.com/css?family=Cinzel:400,700|Suez+One" %>
+  <%= stylesheet_link_tag 'application', media: 'all' %>
+  <%= javascript_include_tag 'application' %>
+  <%= javascript_include_tag 'init'%>
+
+  <%= csrf_meta_tags %>
+</head>
+<body>
+  <nav class="blue-grey lighten-2" role="navigation">
+    <div class="nav-wrapper container">
+      <ul class="right">
+        <li><%= link_to :about do %>
+          <i class="material-icons left">info_outline</i>Info
+        <% end %></li>
+        <li><%= link_to :contact do %>
+          <i class="material-icons left">message</i>Contact
+        <% end %></li>
+        <li><%= link_to :home do %>
+          <i class="material-icons left">home</i>Home
+        <% end %></li>
+      </ul>
+  </nav>
+
+  <%= yield %>
+
+  <footer class="page-footer blue-grey darken-1">
+    <div class="container">
+      <div class="row">
+        <div class="col l6 s12">
+          <h5 class="white-text">Company Bio</h5>
+          <p class="grey-text text-lighten-4">Now it's beginning to make a little sense. I want everbody to be happy. That's what it's all about. We don't need any guidelines or formats. All we need to do is just let it flow right out of us. We don't have to be committed. We are just playing here. We'll play with clouds today.</p>
+        </div>
+        <div class="col l3 s12"></div>
+        <div class="col l3 s12">
+          <h5 class="white-text">Connect</h5>
+          <ul>
+            <li><a class="white-text" href="#!">Link 1</a></li>
+            <li><a class="white-text" href="#!">Link 2</a></li>
+            <li><a class="white-text" href="#!">Link 3</a></li>
+            <li><a class="white-text" href="#!">Link 4</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+
+</body>
+</html>
