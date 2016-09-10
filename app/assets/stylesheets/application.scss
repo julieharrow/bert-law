@@ -22,3 +22,16 @@
 .btn-large {
   @extend .red, .lighten-2;
 }
+
+a:link {
+  color: #EA7910;
+}
+a:visited {
+  color: #FFFFFF;
+}
+a:hover {
+  color: #CCCCCC;
+}
+a:active {
+  color: #EA7910;
+}
