@@ -6,12 +6,12 @@
   <%= stylesheet_link_tag "https://fonts.googleapis.com/css?family=Cinzel:400,700|Suez+One" %>
   <%= stylesheet_link_tag 'application', media: 'all' %>
   <%= javascript_include_tag 'application' %>
-  <%= javascript_include_tag 'init'%>
+  <%= javascript_include_tag 'init' %>
 
   <%= csrf_meta_tags %>
 </head>
 <body>
-  <nav class="blue-grey lighten-2" role="navigation">
+  <nav class="blue-grey lighten-2" role="navigation" id="top">
     <div class="nav-wrapper container">
       <ul class="right">
         <li><%= link_to :about do %>
@@ -50,8 +50,6 @@
       </div>
     </div>
   </footer>
-
-
-
+  <%= javascript_include_tag "https://maps.googleapis.com/maps/api/js?key=#{ENV['GOOGLE_API_KEY']}" %>
 </body>
 </html>

@@ -2,12 +2,16 @@ Bertoldi and Co. prototype website
 
 Things Left to DO:
 
-- Add GoogleMaps API to bottom of contact page
+-- Get actual content for index page "Blurb" and mini bio cards
 
+-- Add navigation link(s) to footer,
+    eg - "back to top" / "contact" / "home"
+
+-- Add Materialize Pushpin (jQuery) to About page for each image
+    - so that the image will float along with the relevant text     
 
 -ActionMailer from 'Contact Us' form (make it actually send out an Email)
 
-- Add linkability to entire card areas of each bio card on index page
 
 - Add body fonts?
 

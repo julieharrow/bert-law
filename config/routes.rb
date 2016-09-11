@@ -6,9 +6,6 @@ Rails.application.routes.draw do
 
   root 'home#index', as: :home
 
-  get 'contact', to: 'messages#new', as: 'contacting'
-
-  post 'contact', to: 'messages#create'
 
 
 
