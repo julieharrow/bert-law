@@ -27,8 +27,13 @@
         <% end %></li>
       </ul>
   </nav>
+<%= yield %>
 
-  <%= yield %>
+  <div class="fixed-action-btn" style="bottom: 45px; right: 24px;">
+    <%= link_to anchor:'top' do  %>
+      <i class="material-icons orange">arrow_upward</i>
+    <% end %>
+  </div>
 
   <footer class="page-footer blue-grey darken-1">
     <div class="container">
@@ -54,9 +59,9 @@
     <div class="footer-copyright">
       <div class="container">
         © 2016 Copyright Text
-           <%= link_to anchor:'top' do  %>
+           <%= link_to :home do  %>
             <span class="right">
-            <i class="small material-icons">arrow_upward</i>back to top</span>
+            <i class="small material-icons">home</i></span>
             <% end %>
            </div>
          </div>
