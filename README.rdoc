@@ -4,11 +4,9 @@ Things Left to DO:
 
 -- Get actual content for index page "Blurb" and mini bio cards
 
--- Add navigation link(s) to footer,
-    eg - "back to top" / "contact" / "home"
 
 -- Add Materialize Pushpin (jQuery) to About page for each image
-    - so that the image will float along with the relevant text     
+    - so that the image will float along with the relevant text
 
 -ActionMailer from 'Contact Us' form (make it actually send out an Email)
 
